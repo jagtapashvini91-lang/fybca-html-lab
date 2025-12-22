@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:chocolate;></body>
+    <h1 align:"center">Registarion form</h1>
+     <form>
+      <form action="submitregistration.php" method="post">
+        <table >    
+            <caption>Registarion Table</caption>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" name="tname" placeholder="Enter your name"></td>
+                </tr>
+                <tr>
+                <td>Password</td>
+                <td><input type="Password" placeholder="Enter Password"></td>
+                </tr>
+
+                <tr>
+                    <td>EMAIL</td>
+                <td><input type="email" placeholder="Enter Email ID"></td>
+                </tr>
+
+                <tr>
+                    <td>Age</td>
+                    <td><input type="number" placeholder="enter a age"></td>
+                </tr>   
+                <tr>
+                    <td>Date of Birth</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Profile picture</td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td> Gender</td>
+                    <td>
+                      <label for="103"><input type="radio" name="rgendre" value="Male">Male</label>
+                      <label for="104"><input type="radio" name="rgendre" value="Female">Female</label>
+                    </td>
+
+                    </tr>
+                    <tr>
+                    <td>Interst</td>
+                    <td>
+                        <label for="103"><input type="radio" name="rinterest" value="Music">Music</label>
+                        <label for="104"><input type="radio" nmae="rinterest" value="Coading">Coading</label>
+                    </td>    
+                    <tr>
+            
+
+        </td>
+        <tr>
+            <td>country</td>
+            <td><select autocomplete="country" id="country" name="country">
+                <option>select country</option>
+                <option value="AF">afghanistan</option>
+                <option value="AX">Alands island</option>
+            </select>
+        </tr>
+        <tr>
+            <td>Bio</td>
+            <td><label for="taddress">
+                <textarea rows="5" cols="50" name="taddress"></textarea></td>
+        </tr>  
+        <tr>
+            <td>Favourite color</td>
+            <td><input type="color" name="ddcolor">
+        </tr>  
+        <tr>      
+            <td>Experience Year</td>
+            <td>
+                <input type="range"  min="0" max="10"></td>
+    </table>
+     </tr>
+    <input type="submit">
+    <input type="reset">
+ </tr>     
+</form>
+    
+</body>
+</html>
